@@ -122,7 +122,7 @@ b. if You include all or a substantial portion of the database contents in a dat
 
 c. You must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.
 
-For the avoidance of doubt, this Section [4](#section-4-–-sui-generis-database-rights) supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
+For the avoidance of doubt, this Section [4](#section-4--sui-generis-database-rights) supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
 
 ### Section 5 – Disclaimer of Warranties and Limitation of Liability
 
@@ -146,7 +146,7 @@ For the avoidance of doubt, this Section 6(b) does not affect any right the Lice
 
 c. For the avoidance of doubt, the Licensor may also offer the Licensed Material under separate terms or conditions or stop distributing the Licensed Material at any time; however, doing so will not terminate this Public License.
 
-d. Sections [1](#section-1-–-definitions), [5](#section-5-–-disclaimer-of-warranties-and-limitation-of-liability), [6](#section-6-–-term-and-termination), [7](#section-7-–-other-terms-and-conditions), and [8](#section-8-–-interpretation) survive termination of this Public License.
+d. Sections [1](#section-1--definitions), [5](#section-5--disclaimer-of-warranties-and-limitation-of-liability), [6](#section-6--term-and-termination), [7](#section-7--other-terms-and-conditions), and [8](#section-8--interpretation) survive termination of this Public License.
 
 ### Section 7 – Other Terms and Conditions
 
