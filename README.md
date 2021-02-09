@@ -1,4 +1,4 @@
-# Python RPi PWM Controller
+# Py-RPi_PWM Controller
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) __WARNING!__ This test release is NOT ready for normal use and might potentially damage your board! This is the only warning you will be given! ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
@@ -18,7 +18,7 @@ The script will not only turn the fan on/off, but also adjust the fan speed acco
 2. Next install the fan controller python script:
 
    ```bash
-   wget -O - "https://raw.githubusercontent.com/WaCrex/Python_RPi_PWM_Controller/master/install.sh" | sudo bash
+   wget -O - "https://raw.githubusercontent.com/WaCrex/Py-RPi_PWM_Controller/master/install.sh" | sudo bash
    ```
 
 ## Fan Profiles
@@ -61,6 +61,6 @@ fan_ctrl.json:
 |Option|Default|Description|
 |:-|:-|:-|
 |`profile`|`linear`|*The name of the profile currently in use (must be listed under profiles)*|
-|`gpio_pin`|`14`|*The GPIO Pin that the fan's PWM cable is connected to*|
+|`gpio_pin`|`18`|*The GPIO Pin that the fan's PWM cable is connected to*|
 |`pwm_freq`|`100`|*The frequency of the PWM signal*|
 |`profiles`||*A dictionary of fan profiles, with Duty Cycle values (%) for the temperatures 50-80°C. The values must be between 0-100% and decimals aren't allowed*|
