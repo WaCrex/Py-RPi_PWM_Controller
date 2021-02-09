@@ -4,15 +4,18 @@
 
 ---
 
-The project originally started off as a custom script written by Patrick Lineruth for the [NESPi-4 Fan Control](https://mini-mods.com/product/nespi-4-fan-control/) PCB,
+The project originally started off as a custom script for the [NESPi-4 Fan Control](https://mini-mods.com/product/nespi-4-fan-control/) PCB,
 but was later changed to be used with the official [Raspberry Pi 4 Case Fan](https://www.raspberrypi.org/products/raspberry-pi-4-case-fan/) instead.
 
-The script will not only turn the fan on/off, but also adjust the fan speed according to the temperature using a fan curve.
+The script will not only turn the fan on/off, but also adjust the fan speed according to the temperature using a fan profile.
 
 ## Installation
 
-1. Go to the official website and follow the first 5 steps of the [Getting started](https://www.raspberrypi.org/products/raspberry-pi-4-case-fan/) section.
-2. Install the fan controller python script:
+1. Go to the [Getting started](https://www.raspberrypi.org/products/raspberry-pi-4-case-fan/) section on the official website and follow the first 5 steps except for the 4:th step where you should instead connect the cables like this:
+
+   ![Fan Pinout](pinout.png)
+
+2. Next install the fan controller python script:
 
    ```bash
    wget -O - "https://raw.githubusercontent.com/WaCrex/Python_RPi_PWM_Controller/master/install.sh" | sudo bash
@@ -33,7 +36,7 @@ fan_ctrl.json:
 ```json
 {
     "profile": "linear",
-    "gpio_pin": 14,
+    "gpio_pin": 18,
     "pwm_freq": 100,
     "profiles": {
         "silent": [
