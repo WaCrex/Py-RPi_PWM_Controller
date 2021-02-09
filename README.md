@@ -1,4 +1,4 @@
-# RPi Fan Controller
+# Python RPi PWM Controller
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) __WARNING!__ This test release is NOT ready for normal use and might potentially damage your board! This is the only warning you will be given! ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
@@ -15,7 +15,7 @@ The script will not only turn the fan on/off, but also adjust the fan speed acco
 2. Install the fan controller python script:
 
    ```bash
-   wget -O - "https://raw.githubusercontent.com/WaCrex/RPi_Fan_Controller/master/install.sh" | sudo bash
+   wget -O - "https://raw.githubusercontent.com/WaCrex/Python_RPi_PWM_Controller/master/install.sh" | sudo bash
    ```
 
 ## Fan Profiles
@@ -26,7 +26,8 @@ The script comes with 3 fan profiles: Silent, Linear & Cool. With Linear being t
 
 ## Configuration
 
-The python script is by default looking for a json-file with the same name as the python script, by default this should be fan_ctrl.json
+The python script is by default looking for a json-file with the same name as the python script, by default this should be fan_ctrl.json.
+
 fan_ctrl.json:
 
 ```json

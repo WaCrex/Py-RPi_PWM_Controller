@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SOURCE_PATH=https://raw.githubusercontent.com/WaCrex/RPi_Fan_Controller/master
+SOURCE_PATH=https://raw.githubusercontent.com/WaCrex/Python_RPi_PWM_Controller/master
 INSTALL_PATH=/opt/fan_ctrl
 SCRIPT=$INSTALL_PATH/fan_ctrl.py
 
