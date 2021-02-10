@@ -1,3 +1,5 @@
+[![CodeFactor](https://www.codefactor.io/repository/github/wacrex/py-rpi_pwm_controller/badge)](https://www.codefactor.io/repository/github/wacrex/py-rpi_pwm_controller) [![DeepSource](https://deepsource.io/gh/WaCrex/Py-RPi_PWM_Controller.svg/?label=active+issues&show_trend=true)](https://deepsource.io/gh/WaCrex/Py-RPi_PWM_Controller/?ref=repository-badge)
+
 # Py-RPi_PWM Controller
 
 ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) __WARNING!__ This is an early development release, any use of this script is at your own risk! ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
