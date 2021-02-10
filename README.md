@@ -1,6 +1,6 @@
 # Py-RPi_PWM Controller
 
-![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) __WARNING!__ This test release is NOT ready for normal use and might potentially damage your board! This is the only warning you will be given! ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
+![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+) __WARNING!__ This is an early development release, any use of this script is at your own risk! ![#f03c15](https://via.placeholder.com/15/f03c15/000000?text=+)
 
 ---
 
@@ -23,9 +23,9 @@ The script will not only turn the fan on/off, but also adjust the fan speed acco
 
 ## Fan Profiles
 
-The script comes with 3 fan profiles: Silent, Linear & Cool. With Linear being the default preset.
+The script comes with 3 fan profiles: `silent`, `linear` & `cool`. With `linear` being the default preset.
 
-![Fan Profile Curves](fan_ctrl_profiles.png)
+![Fan Profiles](fan_profiles.png)
 
 ## Configuration
 
@@ -60,7 +60,7 @@ fan_ctrl.json:
 
 |Option|Default|Description|
 |:-|:-|:-|
-|`profile`|`linear`|*The name of the profile currently in use (must be listed under profiles)*|
-|`gpio_pin`|`18`|*The GPIO Pin that the fan's PWM cable is connected to*|
-|`pwm_freq`|`100`|*The frequency of the PWM signal*|
-|`profiles`||*A dictionary of fan profiles, with Duty Cycle values (%) for the temperatures 50-80°C. The values must be between 0-100% and decimals aren't allowed*|
+|`profile`|`linear`|*The name of the profile currently in use (must be listed under profiles).*|
+|`gpio_pin`|`18`|*The GPIO Pin that the fan's PWM cable is connected to.*|
+|`pwm_freq`|`100`|*The frequency of the PWM signal.*|
+|`profiles`||*A dictionary of fan profiles, with Duty Cycle values (%) for the temperatures 50-80°C. The values must be between 0-100% and decimals aren't allowed.*|
