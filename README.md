@@ -20,7 +20,7 @@ The script will not only turn the fan on/off, but also adjust the fan speed acco
 2. Next install the fan controller python script:
 
    ```bash
-   wget -O - "https://raw.githubusercontent.com/WaCrex/Py-RPi_PWM_Controller/master/install.sh" | sudo bash
+   wget -qO- https://raw.githubusercontent.com/WaCrex/Py-RPi_PWM_Controller/master/install.sh | sudo bash -
    ```
 
 ## Fan Profiles
