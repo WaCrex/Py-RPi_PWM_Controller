@@ -33,7 +33,7 @@ The script comes with 3 fan profiles: `silent`, `linear` & `cool`. With `linear`
 
 The python script is by default looking for a json-file with the same name as the python script, by default this should be fan_ctrl.json.
 
-fan_ctrl.json:
+/opt/fan_ctrl/fan_ctrl.json:
 
 ```json
 {
