@@ -45,7 +45,6 @@ while True:
         # Turn off the fan
         status = False
 
-    # Is the fan on or should it be?
     elif status or temp >= 50:
         # Clamp the temperature to the fan curve
         if temp <= 50:
@@ -56,11 +55,8 @@ while True:
             index = temp - 50
 
         # Check if it's an upward trend
-        if ((sum(history) / 10) < temp) or temp < 50:
-            # Try to stabilize the temperature
-            # TODO: Need to test this further
-            if index < 30:
-                index += 1
+        if (((sum(history) / 10) < temp) or temp < 50) and index < 30:
+            index += 1
 
         # Remove the first entry
         history.pop(0)
